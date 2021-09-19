@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dancefx-dev-162915-authRole",
+      "UnauthRoleArn": "arn:aws:iam::356220858691:role/amplify-dancefx-dev-162915-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::356220858691:role/amplify-dancefx-dev-162915-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dancefx-dev-162915-deployment",
+      "UnauthRoleName": "amplify-dancefx-dev-162915-unauthRole",
+      "StackName": "amplify-dancefx-dev-162915",
+      "StackId": "arn:aws:cloudformation:us-east-1:356220858691:stack/amplify-dancefx-dev-162915/e3f70340-197f-11ec-9943-0ad75b3d917b",
+      "AmplifyAppId": "d35isuo3m5viq9"
+    }
+  }
+}
