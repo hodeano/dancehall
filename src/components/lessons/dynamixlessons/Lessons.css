@@ -1,0 +1,22 @@
+.video-hold{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    object-fit: contain;
+    justify-content: center;
+}
+
+
+
+.player-rap{
+    
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    object-fit: contain;
+    justify-content: center;
+}
