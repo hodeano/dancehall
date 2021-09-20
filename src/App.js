@@ -1,4 +1,6 @@
-import { withAuthenticator } from '@aws-amplify/ui-react'
+import { withAuthenticator  } from '@aws-amplify/ui-react'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 
 
@@ -7,8 +9,8 @@ function App() {
   return (
     
     <div > 
- 
-    <h1>hello</h1>
+
+       <Navbar/>
 
 
 
@@ -16,6 +18,9 @@ function App() {
 
 
 
+
+
+       <Footer/>
     </div>
  
   )
