@@ -68,7 +68,7 @@ function VybzKartelScortchEarth() {
 
               <div className="video-hold" > 
 
-              <ReactPlayer  url='https://youtu.be/xmdGpN6k9fM' />
+              <ReactPlayer controls={true} url='https://youtu.be/xmdGpN6k9fM' />
 
               </div>
               
@@ -127,10 +127,6 @@ function VybzKartelScortchEarth() {
                          </div>   
 
 
-<div>
-        <Belowbar/>
-        </div>
-        
         </div>
     )
 }
