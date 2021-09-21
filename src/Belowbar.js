@@ -32,14 +32,14 @@ function Copyright() {
   );
 }
 
-export default function Footer() {
+export default function Belowbar() {
   return (
     <Box
       sx={{
         
         display: 'flex',
         flexDirection: 'column',
-        minHeight: '100vh',
+        minHeight: '30vh',
       }}
     >
       <CssBaseline />

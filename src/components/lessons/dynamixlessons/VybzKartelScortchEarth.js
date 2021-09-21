@@ -5,6 +5,8 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import './Lessons.css';
+import Belowbar from '../../../Belowbar';
+
 
 
 
@@ -59,7 +61,7 @@ function VybzKartelScortchEarth() {
      <div>
 
              <Typography variant="h3" align="center" gutterBottom>
-                 HERE IS A PREVIEW OF WHAT YOU WILL LEARN
+                 HERE IS A PREVIEW OF WHAT YOU WILL LEARN!
               </Typography>
 
               <Divider />
@@ -79,7 +81,7 @@ function VybzKartelScortchEarth() {
 
      <div> 
             <Typography variant="h3" align="center" gutterBottom>
-                Here is the tutorial
+                HERE IS THE TUTORIAL
             </Typography>
 
              <Divider />
@@ -120,10 +122,15 @@ function VybzKartelScortchEarth() {
              </div>
 
 
+
+       
                          </div>   
 
 
-
+<div>
+        <Belowbar/>
+        </div>
+        
         </div>
     )
 }

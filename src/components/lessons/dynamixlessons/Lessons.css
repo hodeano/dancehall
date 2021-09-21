@@ -1,10 +1,10 @@
 .video-hold{
     padding-top: 30px;
     display: flex;
-    flex-direction: column;
+
     align-items: center;
     padding-bottom: 30px;
-    object-fit: contain;
+    
     justify-content: center;
 }
 
@@ -12,11 +12,11 @@
 
 .player-rap{
     
-    padding-top: 5px;
+    padding-top: 30px;
     display: flex;
-    flex-direction: column;
+     padding-right: 30px;
     align-items: center;
     padding-bottom: 10px;
-    object-fit: contain;
+
     justify-content: center;
 }
