@@ -33,7 +33,7 @@ export default function DynamixTeam() {
 
 
              <div className="overload-shot">
-             <img src="https://dance-course.s3.amazonaws.com/dynamixx+team+header.jpg" />
+             <img src="https://d3cjsf0o8cd718.cloudfront.net/dynamixx%20team%20header.jpg" />
              </div>
 
 
