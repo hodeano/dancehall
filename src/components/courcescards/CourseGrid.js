@@ -3,9 +3,10 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import TwinStarzzCard from './courcescards/TwinStarzzCard';
-import DynamixTeamCard from './courcescards/DynamixTeamCard';
+import TwinStarzzCard from './TwinStarzzCard';
+import DynamixTeamCard from './DynamixTeamCard';
 import Card from '@mui/material/Card';
+import Typography from '@mui/material/Typography';
 
 
 
@@ -17,8 +18,12 @@ const Item = styled(Box)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-export default function Home() {
+export default function CourseGrid() {
   return (
+
+
+
+<div>
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={1}>
 
@@ -62,5 +67,6 @@ export default function Home() {
       
       </Grid>
     </Box>
+    </div>
   );
 }

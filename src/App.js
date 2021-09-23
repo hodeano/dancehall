@@ -3,7 +3,9 @@ import Navbar from './components/Navbar'
 import VybzKartelScortchEarth from './components/lessons/dynamixlessons/VybzKartelScortchEarth.js'
 import DynamixTeam from './components/cources/dynamix/DynamixTeam'
 import Belowbar from './Belowbar'
-import Home from './components/Home'
+import Home from './Home'
+
+
 
 
 
@@ -15,7 +17,7 @@ function App() {
 
        <Navbar/>
 
-        <Home/>
+       <Home/>
 
        <Belowbar/>
 
