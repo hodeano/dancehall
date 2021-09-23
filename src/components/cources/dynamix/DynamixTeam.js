@@ -45,10 +45,7 @@ export default function DynamixTeam() {
 
 
 
-             <div className="overload-shot">
-             <img src="https://d3cjsf0o8cd718.cloudfront.net/dynamixx%20team%20header.jpg" />
-             </div>
-
+            
 
 
 
