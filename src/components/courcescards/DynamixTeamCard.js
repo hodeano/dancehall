@@ -4,8 +4,13 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
+import { useHistory } from "react-router-dom";
+
+
 
 export default function DynamixTeamCard() {
+  let history = useHistory();
+
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
@@ -24,7 +29,7 @@ export default function DynamixTeamCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button onClick={() =>{ history.push('/DynamixTeam') }}   size="small" color="primary">
           Take this course
         </Button>
       </CardActions>

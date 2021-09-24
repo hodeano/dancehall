@@ -7,7 +7,7 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import ReactPlayer from "react-player";
 import './Courses.css';
-import {useHistory} from 'react-router-dom';
+
 
 
 
@@ -31,11 +31,6 @@ const draw1 =  () => {
 
 export default function DynamixTeam() {
   
- let history = useHistory ();
-
- function handleClick() {
-  history.push("../../../../VybzKartelScortchEarth");
-}
 
   return (
 
@@ -44,7 +39,9 @@ export default function DynamixTeam() {
 <div className="full-page" >
 
 
-
+            <div className="overload-shot">
+             <img src="https://d3cjsf0o8cd718.cloudfront.net/dynamixx%20team%20header.jpg" />
+             </div>
             
 
 
@@ -70,8 +67,7 @@ export default function DynamixTeam() {
 
 
 
-
-
+            <div className="body_type"> 
 
      <Typography align="alignLeft" variant="h6"  >
      Learn steps and choreography from the 2016 and 2019 world reggae dance 1st place champions
@@ -118,8 +114,7 @@ export default function DynamixTeam() {
   
      </Typography>
 
-
-
+         
 
 
 
@@ -135,12 +130,12 @@ export default function DynamixTeam() {
         </Typography>
 
 
-<Paper  elevation={7}  >
+   <Paper  elevation={7}  >
 
 
     <List  mx={style}  component="nav" aria-label="mailbox folders">
 
-                  <ListItem button  onClick={handleClick} >
+                  <ListItem button  >
                   <ListItemText primary="Vybz kartel - scortch earth" />
                   </ListItem>
 
@@ -196,7 +191,8 @@ export default function DynamixTeam() {
           </List>
 
 
-</Paper>
+      </Paper>
+                        </div>
 
 </div>
 

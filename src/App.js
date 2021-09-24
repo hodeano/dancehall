@@ -4,7 +4,7 @@ import VybzKartelScortchEarth from './components/lessons/dynamixlessons/VybzKart
 import DynamixTeam from './components/cources/dynamix/DynamixTeam'
 import Belowbar from './Belowbar'
 import Home from './Home'
-
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 
 
 
@@ -17,7 +17,18 @@ function App() {
 
        <Navbar/>
 
-       <Home/>
+
+  <Router>
+        <Switch>
+
+          <Route path="/" exact>
+            <DynamixTeam />
+          </Route>
+
+         
+        </Switch>
+  </Router>
+
 
        <Belowbar/>
 
