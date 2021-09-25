@@ -54,13 +54,26 @@ function VybzKartelScortchEarth() {
 
 
 
+                 <div  className="header-course-page" >
+
+                 <Typography variant="h3" align="center" color="common.white" >
+                 Vybz Kartel - Scorth Earth
+                 </Typography>
+
+                 </div> 
+
+
+
+
+
          <div className="py-2 px-4">
      
 
 
+
      <div>
 
-             <Typography variant="h3" align="center" gutterBottom>
+             <Typography variant="h5" align="center" gutterBottom>
                  HERE IS A PREVIEW OF WHAT YOU WILL LEARN!
               </Typography>
 
@@ -80,7 +93,7 @@ function VybzKartelScortchEarth() {
 
 
      <div> 
-            <Typography variant="h3" align="center" gutterBottom>
+            <Typography variant="h5" align="center"  gutterBottom>
                 HERE IS THE TUTORIAL
             </Typography>
 
@@ -116,9 +129,9 @@ function VybzKartelScortchEarth() {
 
 
               <div className="switch-button" >  
-             <Button className="btn btn-primary" onClick={playNextVideo} variant="contained" color="primary"  fullWidth="true"  >
-             switch view bb
-              </Button>
+                  <Button className="btn btn-primary" onClick={playNextVideo} variant="contained" color="primary"  fullWidth="true"  >
+                      switch view 
+                   </Button>
              </div>
 
 

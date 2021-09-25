@@ -20,3 +20,24 @@
 
     justify-content: center;
 }
+
+
+
+.header-course-page{
+
+    background:url("https://d3cjsf0o8cd718.cloudfront.net/dynamixx team lesson cover.jpg") center center/cover no-repeat;
+
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    justify-content: center;
+
+
+
+}
+
+
+
