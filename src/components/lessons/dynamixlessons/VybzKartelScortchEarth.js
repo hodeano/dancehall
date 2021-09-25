@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import './Lessons.css';
-import Belowbar from '../../../Belowbar';
+
 
 
 
