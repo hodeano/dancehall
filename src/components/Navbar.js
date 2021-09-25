@@ -6,9 +6,13 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-
 import { AmplifySignOut  } from '@aws-amplify/ui-react'
+import './navbar.css';
 
+const draw1 =  () => {
+  window.location.href='/'
+
+}
 
 export default function Navbar() {
   return (
@@ -24,9 +28,14 @@ export default function Navbar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Ja Legends
+          
+          
+         
+          <Typography className="nav-text-pointer" onClick={ draw1 }  variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          Ja Legends 
           </Typography>
+        
+         
           <AmplifySignOut />
 
         </Toolbar>
