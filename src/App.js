@@ -21,8 +21,17 @@ function App() {
   <Router>
         <Switch>
 
-          <Route path="/" exact>
+        <Route exact path="/" >
+            <Home />
+          </Route>
+
+          <Route  path="/dynamixteam" >
             <DynamixTeam />
+          </Route>
+
+
+          <Route  path="/dynamix-team-scortch-earth" >
+            <VybzKartelScortchEarth />
           </Route>
 
          

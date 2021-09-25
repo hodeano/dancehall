@@ -29,7 +29,7 @@ export default function DynamixTeamCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button onClick={() =>{ history.push('/DynamixTeam') }}   size="small" color="primary">
+        <Button onClick={() =>{ history.push('/dynamixteam') }}   size="small" color="primary">
           Take this course
         </Button>
       </CardActions>

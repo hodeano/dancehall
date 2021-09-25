@@ -7,6 +7,7 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import ReactPlayer from "react-player";
 import './Courses.css';
+import { useHistory } from "react-router-dom";
 
 
 
@@ -30,7 +31,7 @@ const draw1 =  () => {
 
 
 export default function DynamixTeam() {
-  
+  let history = useHistory();
 
   return (
 
@@ -135,7 +136,7 @@ export default function DynamixTeam() {
 
     <List  mx={style}  component="nav" aria-label="mailbox folders">
 
-                  <ListItem button  >
+                  <ListItem button onClick={() =>{ history.push('/dynamix-team-scortch-earth') }}  >
                   <ListItemText primary="Vybz kartel - scortch earth" />
                   </ListItem>
 
