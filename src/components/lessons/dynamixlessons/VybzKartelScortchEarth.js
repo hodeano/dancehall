@@ -11,41 +11,7 @@ import './Lessons.css';
 
 
 function VybzKartelScortchEarth() {
-    let playedSeconds = 0;
-      const [Seconds, setSeconds] = useState(playedSeconds);
-      const [currentVideo, setCurrentVideo] = useState(0);
-      const [link, setLink] = useState([
-        `https://d2n3gktrd4ei3p.cloudfront.net/earth%20teach%20vert.mp4`,
 
-     
-      ]);
-    
-      const playNextVideo = () => {
-        if (currentVideo + 1 < link.length) {
-          let current = currentVideo + 1;
-          setCurrentVideo(current);
-        } else {
-          setCurrentVideo(0);
-        }
-        addTimer();
-      };
-      const addTimer = () => {
-        setSeconds(`?start=${playedSeconds}`);
-        let array = [...link];
-        setLink([...array]);
-      };
-    
-      const onProgress = (video) => {
-        if (playedSeconds < Math.round(video.playedSeconds)) {
-          playedSeconds = Math.round(video.playedSeconds);
-        }
-      };
-    
-      useEffect(() => {
-        addTimer();
-      }, []);
-    
-    
 
 
 
@@ -102,39 +68,23 @@ function VybzKartelScortchEarth() {
      </div>
 
 
-        <div className="player-rap"> 
-          <ReactPlayer 
- 
-          controls
-          playing={true} 
-
-          url={link[currentVideo] + Seconds}
-          onProgress={(ev) => onProgress(ev)}
-
-         config={{
-         file: {
-         attributes: {
-         onContextMenu: e => e.preventDefault(),
-         controlsList: 'nodownload'
-      }
-     }
-   }}
-         />
-
-
-
+          <div className="player-rap"> 
+     
+            
+               <ReactPlayer config={{
+                  file: {
+                 attributes: {
+                 onContextMenu: e => e.preventDefault(),
+                 controlsList: 'nodownload'
+                }
+                 }
+                   }} controls url='https://d2n3gktrd4ei3p.cloudfront.net/earth%20teach%20vert.mp4' />
 
 
           </div>
 
 
-              <div className="switch-button" >  
-                  <Button className="btn btn-primary" onClick={playNextVideo} variant="contained" color="primary"  fullWidth="true"  >
-                      switch view 
-                   </Button>
-             </div>
-
-
+           
 
        
                          </div>   
