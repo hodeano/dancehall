@@ -38,7 +38,7 @@ export default function DynamixTeam() {
     
 
 <div className="full-page" >
-
+                               
 
             <div className="overload-shot">
              <img src="https://d3cjsf0o8cd718.cloudfront.net/dynamixx%20team%20header.jpg" />
@@ -46,7 +46,7 @@ export default function DynamixTeam() {
             
 
 
-
+                                      
     <div className="course-name" >
          <br/>
          <Typography align="center" variant="h3"  >
@@ -60,13 +60,13 @@ export default function DynamixTeam() {
 <div>
 <Divider/>
 </div>
-    
+                                  
 
             <div className="player_holder">  
              <ReactPlayer controls={true} url='https://youtu.be/v7iBHsBjyEQ' />
             </div>
 
-
+                                 
 
             <div className="body_type"> 
 
@@ -119,7 +119,7 @@ export default function DynamixTeam() {
 
 
 
-
+                                  
 
 
 
@@ -142,18 +142,24 @@ export default function DynamixTeam() {
 
                   <Divider />
 
-                  <ListItem button divider>
-                  <ListItemText primary="Drafts" />
+                  <ListItem button divider  onClick={() =>{ history.push('/dynamix-team-star-boy') }}  >
+                  <ListItemText primary="MOVADO – STAR BOY / MID SCHOOL" />
                   </ListItem>
 
-                  <ListItem button>
-                  <ListItemText primary="Trash" />
+                  <ListItem button  onClick={() =>{ history.push('/dynamix-team-ohemaa') }} >
+                  <ListItemText primary="KWAMZ AND FLAVA – Ohemaa " />
                   </ListItem>
 
                   <Divider />
 
-                  <ListItem button>
-                  <ListItemText primary="Spam" />
+                  <ListItem button onClick={() =>{ history.push('/dynamix-team-cool-as-the-breeze') }}  >
+                  <ListItemText primary="CHRONIXX – COOL AS THE BREEZE" />
+                  </ListItem>
+
+                  <Divider />
+
+                  <ListItem button onClick={() =>{ history.push('/dynamix-team-gangster') }}  >
+                  <ListItemText primary="THE ALLIANCE – GANGSTER / MID SCHOOL" />
                   </ListItem>
 
                   <Divider light />
