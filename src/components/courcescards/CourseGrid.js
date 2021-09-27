@@ -7,6 +7,7 @@ import TwinStarzzCard from './TwinStarzzCard';
 import DynamixTeamCard from './DynamixTeamCard';
 import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
+import OverloadSkankazCard from './OverloadSkankazCard';
 
 
 
@@ -36,7 +37,7 @@ export default function CourseGrid() {
         </Grid>
 
         <Grid item xs={6}  md={3} >
-          <Item>  <TwinStarzzCard/> </Item>
+          <Item>  <OverloadSkankazCard/> </Item>
         </Grid>
 
         <Grid item xs={6} md={3}>

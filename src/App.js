@@ -24,6 +24,7 @@ import BoomItUp from './components/lessons/twinstarzzlessons/BoomItUp'
 import Ben from './components/lessons/twinstarzzlessons/Ben'
 import Wiper from './components/lessons/twinstarzzlessons/Wiper'
 import InterviewTwinStarzz from './components/lessons/twinstarzzlessons/InterviewTwinStarzz'
+import OverloadSkankaz from './components/cources/overloadskankaz/OverloadSkankaz'
 
 
 
@@ -52,6 +53,10 @@ function App() {
 
           <Route  path="/twinstarzz" >
             <TwinStarzz/>
+          </Route>
+
+          <Route  path="/overloadskankaz" >
+            <OverloadSkankaz/>
           </Route>
 
 
