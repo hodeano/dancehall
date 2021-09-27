@@ -15,6 +15,15 @@ import Circulate from './components/lessons/dynamixlessons/Circulate'
 import InterviewDynamix from './components/lessons/dynamixlessons/InterviewDynamix'
 import BillAVibzDynamix from './components/lessons/dynamixlessons/BillAVibzDynamix'
 import TwinStarzz from './components/cources/twinstarzz/TwinStarzz'
+import AidoniaTipPonYuhToe from './components/lessons/twinstarzzlessons/AidoniaTipPonYuhToe'
+import RdxJaw from './components/lessons/twinstarzzlessons/RdxJaw'
+import SpiceGum from './components/lessons/twinstarzzlessons/SpiceGum'
+import SlapIt from './components/lessons/twinstarzzlessons/SlapIt'
+import WildThoughts from './components/lessons/twinstarzzlessons/WildThoughts'
+import BoomItUp from './components/lessons/twinstarzzlessons/BoomItUp'
+import Ben from './components/lessons/twinstarzzlessons/Ben'
+import Wiper from './components/lessons/twinstarzzlessons/Wiper'
+import InterviewTwinStarzz from './components/lessons/twinstarzzlessons/InterviewTwinStarzz'
 
 
 
@@ -87,6 +96,50 @@ function App() {
           <Route  path="/dynamix-team-bill-a-vybz" >
           <BillAVibzDynamix/>
           </Route>
+
+
+                        /*twin starzz lessons routes */
+
+          <Route  path="/twin-starzz-tip-pan-yuh-toe" >
+          <AidoniaTipPonYuhToe/>
+          </Route>
+
+          <Route  path="/twin-starzz-jaw" >
+          <RdxJaw/>
+          </Route>
+
+          <Route  path="/twin-starzz-gum" >
+          <SpiceGum/>
+          </Route>
+
+          <Route  path="/twin-starzz-slap-it" >
+          <SlapIt/>
+          </Route>
+
+          <Route  path="/twin-starzz-wild-thoughts" >
+          <WildThoughts/>
+          </Route>
+
+          <Route  path="/twin-starzz-boom-it-up" >
+          <BoomItUp/>
+          </Route>
+
+          <Route  path="/twin-starzz-ben" >
+          <Ben/>
+          </Route>
+
+          <Route  path="/twin-starzz-wiper" >
+          <Wiper/>
+          </Route>
+
+          <Route  path="/twin-starzz-interview" >
+          <InterviewTwinStarzz/>
+          </Route>
+
+
+
+
+
 
          
         </Switch>

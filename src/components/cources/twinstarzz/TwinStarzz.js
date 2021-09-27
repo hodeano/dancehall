@@ -41,7 +41,7 @@ export default function TwinStarzz() {
                                
 
             <div className="overload-shot">
-             <img src="https://dance-course.s3.amazonaws.com/twin+starzz++header.jpg" />
+             <img src="https://d3cjsf0o8cd718.cloudfront.net/twin+starzz++header.jpg" />
              </div>
             
 
@@ -146,17 +146,17 @@ export default function TwinStarzz() {
 
                   <Divider />
 
-                  <ListItem button onClick={() =>{ history.push('/dynamix-team-scortch-earth') }}  >
+                  <ListItem button onClick={() =>{ history.push('/twin-starzz-tip-pan-yuh-toe') }}  >
                   <ListItemText primary="AIDONIA – TIP PAN YUH TOE" />
                   </ListItem>
 
                   <Divider />
 
-                  <ListItem button divider  onClick={() =>{ history.push('/dynamix-team-star-boy') }}  >
+                  <ListItem button divider  onClick={() =>{ history.push('/twin-starzz-jaw') }}  >
                   <ListItemText primary="RDX – JAW " />
                   </ListItem>
 
-                  <ListItem button  onClick={() =>{ history.push('/dynamix-team-ohemaa') }} >
+                  <ListItem button  onClick={() =>{ history.push('/twin-starzz-gum') }} >
                   <ListItemText primary="SPICE – GUM  " />
                   </ListItem>
 
@@ -174,27 +174,27 @@ export default function TwinStarzz() {
        <List   mx={style}  component="nav"  aria-label="mailbox folders">
        <Divider light />
 
-                  <ListItem button onClick={() =>{ history.push('/dynamix-team-tidal-wave') }}  >   
+                  <ListItem button onClick={() =>{ history.push('/twin-starzz-slap-it') }}  >   
                   <ListItemText primary="SLAP IT" />
                   </ListItem>
 
                   <Divider />
 
-                  <ListItem button divider onClick={() =>{ history.push('/dynamix-team-pull-trigga') }}  >
+                  <ListItem button divider onClick={() =>{ history.push('/twin-starzz-wild-thoughts') }}  >
                   <ListItemText primary="WILD THOGHTS " />
                   </ListItem>
 
-                  <ListItem button  onClick={() =>{ history.push('/dynamix-team-circulate') }}  >
+                  <ListItem button  onClick={() =>{ history.push('/twin-starzz-boom-it-up') }}  >
                   <ListItemText primary="BOOM IT UP" />
                   </ListItem>
 
                   <Divider />
 
-                  <ListItem button divider onClick={() =>{ history.push('/dynamix-team-pull-trigga') }}  >
+                  <ListItem button divider onClick={() =>{ history.push('/twin-starzz-ben') }}  >
                   <ListItemText primary=" BEN" />
                   </ListItem>
 
-                  <ListItem button  onClick={() =>{ history.push('/dynamix-team-circulate') }}  >
+                  <ListItem button  onClick={() =>{ history.push('/twin-starzz-wiper') }}  >
                   <ListItemText primary="WIPER " />
                   </ListItem>
 
@@ -215,7 +215,7 @@ export default function TwinStarzz() {
        <List   mx={style}  component="nav"  aria-label="mailbox folders">
        <Divider light />
 
-                  <ListItem button  onClick={() =>{ history.push('/dynamix-team-interview') }}  > 
+                  <ListItem button  onClick={() =>{ history.push('/twin-starzz-interview') }}  > 
                   <ListItemText primary="INTERVIEW WITH ALLI AND LISA TWIN STARZZ" />
                   </ListItem>
 
