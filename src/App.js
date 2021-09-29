@@ -35,6 +35,11 @@ import FlameTeam from './components/cources/flameteam/FlameTeam'
 import Comepass from './components/lessons/flameteam/Comepass'
 import Hi5 from './components/lessons/flameteam/Hi5'
 import MasickaIWish from './components/lessons/flameteam/MasickaIWish'
+import ProblemSquad from './components/cources/problemsquad/ProblemSquad'
+import Swift from './components/lessons/problemsquad/Swift'
+import FallaFalla from './components/lessons/problemsquad/FallaFalla'
+import MixUp from './components/lessons/problemsquad/MixUp'
+import ProblemSquadInterview from './components/lessons/problemsquad/ProblemSquadInterview'
 
 
 
@@ -70,6 +75,10 @@ function App() {
 
           <Route  path="/flameteam" >
             <FlameTeam/>
+          </Route>
+
+          <Route  path="/problemsquad" >
+            <ProblemSquad/>
           </Route>
 
 
@@ -198,6 +207,28 @@ function App() {
           </Route>
 
          
+          /*problem suad lessons routes */
+
+          <Route  path="/problem-squad-swift" >
+          <Swift/>
+          </Route>
+
+          <Route  path="/problem-squad-falla-falla" >
+          <FallaFalla/>
+          </Route>
+
+          <Route  path="/problem-squad-mix-up" >
+          <MixUp/>
+          </Route>
+
+          <Route  path="/problem-squad-interview" >
+          <ProblemSquadInterview/>
+          </Route>
+
+
+
+
+
         </Switch>
   </Router>
 

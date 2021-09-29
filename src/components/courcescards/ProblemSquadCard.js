@@ -8,7 +8,7 @@ import { useHistory } from "react-router-dom";
 
 
 
-export default function FlameTeamCard() {
+export default function ProblemSquadCard() {
   let history = useHistory();
 
   return (
@@ -18,18 +18,18 @@ export default function FlameTeamCard() {
           component="img"
           height="250"
          
-          image="/images/flameteam-cardfit.jpg"
+          image="https://d3cjsf0o8cd718.cloudfront.net/problem cardfit.jpg"
           alt="dynamix team"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-          FLAME TEAM
+          PROBLEM SQUAD
           </Typography>
          
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button onClick={() =>{ history.push('/flameteam') }}   size="small" color="primary">
+        <Button onClick={() =>{ history.push('/problemsquad') }}   size="small" color="primary">
           Take this course
         </Button>
       </CardActions>
