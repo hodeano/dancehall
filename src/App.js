@@ -40,6 +40,14 @@ import Swift from './components/lessons/problemsquad/Swift'
 import FallaFalla from './components/lessons/problemsquad/FallaFalla'
 import MixUp from './components/lessons/problemsquad/MixUp'
 import ProblemSquadInterview from './components/lessons/problemsquad/ProblemSquadInterview'
+import UnstoppableGeneration from './components/cources/unstoppablegeneration/UnstoppableGeneration'
+import ElephantOhNahNah from './components/lessons/unstoppablegeneration/ElephantOhNahNah'
+import StyloGPutEhDung from './components/lessons/unstoppablegeneration/StyloGPutEhDung'
+import ChineyKRiddim from './components/lessons/unstoppablegeneration/ChineyKRiddim'
+import Excellent from './components/lessons/unstoppablegeneration/Excellent'
+import HandPiece from './components/lessons/unstoppablegeneration/HandPiece'
+import UnstoppableGenerationInterview from './components/lessons/unstoppablegeneration/UnstoppableGenerationInterview'
+import BillAVybzUnstoppable from './components/lessons/unstoppablegeneration/BillAVybzUnstoppable'
 
 
 
@@ -79,6 +87,10 @@ function App() {
 
           <Route  path="/problemsquad" >
             <ProblemSquad/>
+          </Route>
+
+          <Route  path="/unstoppablegeneration" >
+            <UnstoppableGeneration/>
           </Route>
 
 
@@ -226,6 +238,37 @@ function App() {
           </Route>
 
 
+          /*Unstoppable generation lessons routes */
+
+
+          <Route  path="/unstoppable-generation-oh-nah-nah" >
+          <ElephantOhNahNah/>
+          </Route>
+
+          <Route  path="/unstoppable-generation-put-eh-dung" >
+          <StyloGPutEhDung/>
+          </Route>
+
+          <Route  path="/unstoppable-generation-chiney-k-riddim" >
+          <ChineyKRiddim/>
+          </Route>
+
+          <Route  path="/unstoppable-generation-excellent" >
+          <Excellent/>
+          </Route>
+
+          <Route  path="/unstoppable-generation-hand-piece" >
+          <HandPiece/>
+          </Route>
+
+          <Route  path="/unstoppable-generation-interview" >
+          <UnstoppableGenerationInterview/>
+          </Route>
+
+
+          <Route  path="/unstoppable-generation-bill-a-vybz" >
+          <BillAVybzUnstoppable/>
+          </Route>
 
 
 

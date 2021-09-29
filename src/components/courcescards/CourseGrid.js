@@ -10,6 +10,8 @@ import Typography from '@mui/material/Typography';
 import OverloadSkankazCard from './OverloadSkankazCard';
 import FlameTeamCard from './FlameTeamCard';
 import ProblemSquadCard from './ProblemSquadCard';
+import UnstoppableGeneration from '../cources/unstoppablegeneration/UnstoppableGeneration';
+import UnstoppableGenerationCard from './UnstoppableGenerationCard';
 
 
 
@@ -51,7 +53,7 @@ export default function CourseGrid() {
         </Grid>
 
         <Grid item xs={6} md={3}>
-          <Item> <DynamixTeamCard/> </Item>
+          <Item> <UnstoppableGenerationCard/> </Item>
         </Grid>
 
         <Grid item xs={6} md={3}>
@@ -62,9 +64,6 @@ export default function CourseGrid() {
           <Item>  <TwinStarzzCard/> </Item>
         </Grid>
 
-        <Grid item xs={6} md={3}>
-          <Item> <DynamixTeamCard/> </Item>
-        </Grid>
 
 
       

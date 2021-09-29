@@ -1,0 +1,45 @@
+.player_holder {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+.full-page{
+
+    padding-bottom: 40px;
+      
+    }
+ 
+  
+   .course-img{
+  background: linear-gradient(to right, blue, pink);
+  height: 30px;;
+  
+   }
+  
+  
+  
+  .overload-shot{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+  
+  
+  }
+
+
+.course-name{
+
+padding-top: 5px;
+
+}
+
+
+
+.body_type{
+padding-left: 15px;
+padding-right: 15px;
+
+
+}
