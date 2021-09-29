@@ -31,7 +31,10 @@ import SeanPaulScorcha from './components/lessons/overloadlessons/SeanPaulScorch
 import WayneVacancy from './components/lessons/overloadlessons/WayneVacancy'
 import InnaMiFeelings from './components/lessons/overloadlessons/InnaMiFeelings'
 import SoulFlow from './components/lessons/overloadlessons/SoulFlow'
-
+import FlameTeam from './components/cources/flameteam/FlameTeam'
+import Comepass from './components/lessons/flameteam/Comepass'
+import Hi5 from './components/lessons/flameteam/Hi5'
+import MasickaIWish from './components/lessons/flameteam/MasickaIWish'
 
 
 
@@ -63,6 +66,10 @@ function App() {
 
           <Route  path="/overloadskankaz" >
             <OverloadSkankaz/>
+          </Route>
+
+          <Route  path="/flameteam" >
+            <FlameTeam/>
           </Route>
 
 
@@ -175,10 +182,20 @@ function App() {
           <SoulFlow/>
           </Route>
 
+          /*FLAME team lessons routes */
+
+          <Route  path="/flame-team-i-wish" >
+          <MasickaIWish/>
+          </Route>
+
+          <Route  path="/flame-team-compass" >
+          <Comepass/>
+          </Route>
 
 
-
-
+          <Route  path="/flame-team-hi5" >
+          <Hi5/>
+          </Route>
 
          
         </Switch>
