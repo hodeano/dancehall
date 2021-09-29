@@ -25,6 +25,12 @@ import Ben from './components/lessons/twinstarzzlessons/Ben'
 import Wiper from './components/lessons/twinstarzzlessons/Wiper'
 import InterviewTwinStarzz from './components/lessons/twinstarzzlessons/InterviewTwinStarzz'
 import OverloadSkankaz from './components/cources/overloadskankaz/OverloadSkankaz'
+import RyticalCookieJar from './components/lessons/overloadlessons/RyticalCookieJar'
+import SeanPaulLikeGlue from './components/lessons/overloadlessons/SeanPaulLikeGlue'
+import SeanPaulScorcha from './components/lessons/overloadlessons/SeanPaulScorcha'
+import WayneVacancy from './components/lessons/overloadlessons/WayneVacancy'
+import InnaMiFeelings from './components/lessons/overloadlessons/InnaMiFeelings'
+import SoulFlow from './components/lessons/overloadlessons/SoulFlow'
 
 
 
@@ -139,6 +145,34 @@ function App() {
 
           <Route  path="/twin-starzz-interview" >
           <InterviewTwinStarzz/>
+          </Route>
+
+
+
+          /*overload skankaz lessons routes */
+
+          <Route  path="/overload-skankaz-cookie-jar" >
+          <RyticalCookieJar/>
+          </Route>
+
+          <Route  path="/overload-skankaz-like-glue" >
+          <SeanPaulLikeGlue/>
+          </Route>
+
+          <Route  path="/overload-skankaz-scorcha" >
+          <SeanPaulScorcha/>
+          </Route>
+
+          <Route  path="/overload-skankaz-vacancy" >
+          <WayneVacancy/>
+          </Route>
+
+          <Route  path="/overload-skankaz-inna-mi-feelings" >
+          <InnaMiFeelings/>
+          </Route>
+
+          <Route  path="/overload-skankaz-soul-flow" >
+          <SoulFlow/>
           </Route>
 
 

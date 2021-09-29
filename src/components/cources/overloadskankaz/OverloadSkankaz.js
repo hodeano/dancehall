@@ -143,23 +143,23 @@ export default function OverloadSkankaz() {
 
                   <Divider />
 
-                  <ListItem button onClick={() =>{ history.push('/twin-starzz-tip-pan-yuh-toe') }}  >
+                  <ListItem button onClick={() =>{ history.push('/overload-skankaz-cookie-jar') }}  >
                   <ListItemText primary="Rytikal – Cookie Jar" />
                   </ListItem>
 
                   <Divider />
 
-                  <ListItem button divider  onClick={() =>{ history.push('/twin-starzz-jaw') }}  >
+                  <ListItem button divider  onClick={() =>{ history.push('/overload-skankaz-like-glue') }}  >
                   <ListItemText primary="Sean Paul – Like Glue " />
                   </ListItem>
 
-                  <ListItem button  onClick={() =>{ history.push('/twin-starzz-gum') }} >
+                  <ListItem button  onClick={() =>{ history.push('/overload-skankaz-scorcha') }} >
                   <ListItemText primary=" SEAN PAUL – SCORCHA " />
                   </ListItem>
 
                   <Divider />
 
-                  <ListItem button  onClick={() =>{ history.push('/twin-starzz-gum') }} >
+                  <ListItem button  onClick={() =>{ history.push('/overload-skankaz-vacancy') }} >
                   <ListItemText primary=" Wayne – Vacancy ft Oxlade " />
                   </ListItem>
 
@@ -177,13 +177,13 @@ export default function OverloadSkankaz() {
        <List   mx={style}  component="nav"  aria-label="mailbox folders">
        <Divider light />
 
-                  <ListItem button onClick={() =>{ history.push('/twin-starzz-slap-it') }}  >   
+                  <ListItem button onClick={() =>{ history.push('/overload-skankaz-inna-mi-feelings') }}  >   
                   <ListItemText primary="INNA MI FEELINGS" />
                   </ListItem>
 
                   <Divider />
 
-                  <ListItem button onClick={() =>{ history.push('/twin-starzz-wild-thoughts') }}  >
+                  <ListItem button onClick={() =>{ history.push('/overload-skankaz-soul-flow') }}  >
                   <ListItemText primary="SOUL FLOW " />
                   </ListItem>
 
