@@ -13,6 +13,7 @@ import ProblemSquadCard from './ProblemSquadCard';
 import UnstoppableGeneration from '../cources/unstoppablegeneration/UnstoppableGeneration';
 import UnstoppableGenerationCard from './UnstoppableGenerationCard';
 import KripticKliqueCard from './KripticKliqueCard';
+import MiddleSchoolDancehallCard from './MiddleSchollDancehallCard';
 
 
 
@@ -62,7 +63,7 @@ export default function CourseGrid() {
         </Grid>
 
         <Grid item xs={6}  md={3} >
-          <Item>  <TwinStarzzCard/> </Item>
+          <Item>  <MiddleSchoolDancehallCard/> </Item>
         </Grid>
 
 

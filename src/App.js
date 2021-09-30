@@ -56,6 +56,12 @@ import ZoomMidSchool from './components/lessons/kripticlessons/ZoomMidSchool'
 import ZoomBougleStepAndHistory from './components/lessons/kripticlessons/ZoomBougleStepAndHistory'
 import ZoomSkaOldSchool from './components/lessons/kripticlessons/ZoomSkaOldSchool'
 import KriptickliqueInterview from './components/lessons/kripticlessons/KriptickliqueInterview'
+import MiddleSchoolDancehall from './components/cources/middleschooldancehall/MiddleSchoolDancehall'
+import GimmeSpace from './components/lessons/middleschooldancehalllessons/GimmeSpace'
+import WheelChair from './components/lessons/middleschooldancehalllessons/WheelChair'
+import PunkRock from './components/lessons/middleschooldancehalllessons/PunkRock'
+import BackOff from './components/lessons/middleschooldancehalllessons/BackOff'
+import OneDance from './components/lessons/middleschooldancehalllessons/OneDance'
 
 
 
@@ -104,6 +110,11 @@ function App() {
           <Route  path="/kripticklique" >
             <KripticKlique/>
           </Route>
+
+          <Route  path="/middleschooldancehall" >
+            <MiddleSchoolDancehall/>
+          </Route>
+
 
 
 
@@ -315,6 +326,27 @@ function App() {
           <KriptickliqueInterview/>
           </Route>
 
+          /*MIDDLE SCHOOL DANCEHALL lessons routes */
+
+          <Route  path="/middle-school-dancehall-gimme-space" >
+          <GimmeSpace/>
+          </Route>
+
+          <Route  path="/middle-school-dancehall-wheel-chair" >
+          <WheelChair/>
+          </Route>
+
+          <Route  path="/middle-school-dancehall-punk-rock" >
+          <PunkRock/>
+          </Route>
+
+          <Route  path="/middle-school-dancehall-back-off" >
+          <BackOff/>
+          </Route>
+
+          <Route  path="/middle-school-dancehall-one-dance" >
+          <OneDance/>
+          </Route>
 
 
 
