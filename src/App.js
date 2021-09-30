@@ -48,6 +48,14 @@ import Excellent from './components/lessons/unstoppablegeneration/Excellent'
 import HandPiece from './components/lessons/unstoppablegeneration/HandPiece'
 import UnstoppableGenerationInterview from './components/lessons/unstoppablegeneration/UnstoppableGenerationInterview'
 import BillAVybzUnstoppable from './components/lessons/unstoppablegeneration/BillAVybzUnstoppable'
+import KripticKlique from './components/cources/kripticklique/KripticKlique'
+import JimmyCliffTheHarderTheyCome from './components/lessons/kripticlessons/JimmyCliffTheHarderTheyCome'
+import CurrentFlow from './components/lessons/kripticlessons/CurrentFlow'
+import ZoomNewSchool from './components/lessons/kripticlessons/ZoomNewSchool'
+import ZoomMidSchool from './components/lessons/kripticlessons/ZoomMidSchool'
+import ZoomBougleStepAndHistory from './components/lessons/kripticlessons/ZoomBougleStepAndHistory'
+import ZoomSkaOldSchool from './components/lessons/kripticlessons/ZoomSkaOldSchool'
+import KriptickliqueInterview from './components/lessons/kripticlessons/KriptickliqueInterview'
 
 
 
@@ -92,6 +100,11 @@ function App() {
           <Route  path="/unstoppablegeneration" >
             <UnstoppableGeneration/>
           </Route>
+
+          <Route  path="/kripticklique" >
+            <KripticKlique/>
+          </Route>
+
 
 
                        /*dynamix team lessons routes */
@@ -269,6 +282,40 @@ function App() {
           <Route  path="/unstoppable-generation-bill-a-vybz" >
           <BillAVybzUnstoppable/>
           </Route>
+
+
+          /*kriptic klique lessons routes */
+
+          <Route  path="/kriptic-klique-the-harder-they-come" >
+          <JimmyCliffTheHarderTheyCome/>
+          </Route>
+
+          
+          <Route  path="/kriptic-klique-current-flow" >
+          <CurrentFlow/>
+          </Route>
+
+          <Route  path="/kriptic-klique-zoom-class-new-school" >
+          <ZoomNewSchool/>
+          </Route>
+
+          <Route  path="/kriptic-klique-zoom-class-mid-school" >
+          <ZoomMidSchool/>
+          </Route>
+
+          <Route  path="/kriptic-klique-zoom-class-bougle" >
+          <ZoomBougleStepAndHistory/>
+          </Route>
+
+          <Route  path="/kriptic-klique-zoom-class-ska-and-old-school" >
+          <ZoomSkaOldSchool/>
+          </Route>
+
+          <Route  path="/kriptic-klique-interview" >
+          <KriptickliqueInterview/>
+          </Route>
+
+
 
 
 

@@ -12,6 +12,7 @@ import FlameTeamCard from './FlameTeamCard';
 import ProblemSquadCard from './ProblemSquadCard';
 import UnstoppableGeneration from '../cources/unstoppablegeneration/UnstoppableGeneration';
 import UnstoppableGenerationCard from './UnstoppableGenerationCard';
+import KripticKliqueCard from './KripticKliqueCard';
 
 
 
@@ -57,7 +58,7 @@ export default function CourseGrid() {
         </Grid>
 
         <Grid item xs={6} md={3}>
-          <Item> <DynamixTeamCard/> </Item>
+          <Item> <KripticKliqueCard/> </Item>
         </Grid>
 
         <Grid item xs={6}  md={3} >
