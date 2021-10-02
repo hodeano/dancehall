@@ -75,7 +75,7 @@ export default function MiddleSchoolDancehall() {
      </Typography>
      <br/>
      <Typography align="alignLeft" variant="h4"  >
-     What will you learn? 
+     What will You Learn? 
      </Typography>
 
      <Typography align="body1" variant="h6"  >
